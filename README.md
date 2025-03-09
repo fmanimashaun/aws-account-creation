@@ -22,6 +22,9 @@
 
 The AWS Account Creation project is a guided exercise designed to help users create their own Amazon Web Services (AWS) account. This project is tailored for newcomers to cloud computing, providing a detailed walkthrough of the registration process from start to finish. Through this project, users gain practical insights into how AWS manages account setup, verification, and initial configuration.
 
+*Screenshot Placeholder:*
+![Project Overview Screenshot](./screenshots/project_overview.png)
+
 ---
 
 ## Objectives and Learning Outcomes
@@ -38,6 +41,9 @@ The AWS Account Creation project is a guided exercise designed to help users cre
 - Learn best practices for inputting and securing personal and payment information.
 - Build foundational knowledge for future cloud-based projects.
 
+*Screenshot Placeholder:*
+![Objectives and Learning Outcomes Screenshot](./screenshots/objectives_learning_outcomes.png)
+
 ---
 
 ## Prerequisites and Requirements
@@ -49,6 +55,9 @@ Before starting this project, ensure you have:
 - A phone number (for receiving OTP during the verification process).
 - Basic familiarity with web navigation and form submissions.
 
+*Screenshot Placeholder:*
+![Prerequisites Screenshot](./screenshots/prerequisites.png)
+
 ---
 
 ## Implementation Steps
@@ -57,6 +66,11 @@ Before starting this project, ensure you have:
 - **Step:** Open your web browser and navigate to [aws.amazon.com](https://aws.amazon.com/).
 - **Action:** Click the **"Create an AWS account"** button, typically found at the top right corner of the homepage.
 
+*Screenshot Placeholder:*
+![AWS Homepage Screenshot](./screenshots/step_4_1_aws_homepage.png)
+
+---
+
 ### 4.2 Enter Account Information
 - **Step:** On the account registration page, provide the following:
   - **Email Address:** Enter your valid email.
@@ -64,12 +78,22 @@ Before starting this project, ensure you have:
   - **AWS Account Name:** Choose a unique identifier for your account.
 - **Action:** Click **"Verify email address"** to proceed.
 
+*Screenshot Placeholder:*
+![Enter Account Information Screenshot](./screenshots/step_4_2_account_info.png)
+
+---
+
 ### 4.3 Email Verification Process
 - **Step:** Check your email inbox for a verification code from AWS.
 - **Action:**
   - Copy the received verification code.
   - Return to the AWS sign-up page and paste the code into the designated field.
   - Set your **Root user password** and click **"Continue"**.
+
+*Screenshot Placeholder:*
+![Email Verification Process Screenshot](./screenshots/step_4_3_email_verification.png)
+
+---
 
 ### 4.4 Providing Personal and Payment Information
 - **Personal Information:**
@@ -80,6 +104,11 @@ Before starting this project, ensure you have:
   - **Note:** AWS may perform a nominal authorization charge (around USD $1.00) to verify your card, which will be reversed.
   - **Action:** Click **"Verify and continue"** to complete the payment verification.
 
+*Screenshot Placeholder:*
+![Personal and Payment Information Screenshot](./screenshots/step_4_4_personal_payment.png)
+
+---
+
 ### 4.5 Phone Verification and OTP Handling
 - **Step:** AWS will send an OTP (One Time Password) to the phone number you provided.
 - **Action:**
@@ -88,10 +117,20 @@ Before starting this project, ensure you have:
   - Complete any CAPTCHA challenges that may appear.
   - Click **"Send"** and then **"Continue"** to proceed.
 
+*Screenshot Placeholder:*
+![Phone Verification and OTP Screenshot](./screenshots/step_4_5_otp.png)
+
+---
+
 ### 4.6 Selecting a Support Plan
 - **Step:** On the support plan selection page, review the options.
 - **Recommendation:** For beginners, select the **Basic (Free)** support plan.
 - **Action:** Click **"Complete sign up"** after choosing your support plan.
+
+*Screenshot Placeholder:*
+![Support Plan Selection Screenshot](./screenshots/step_4_6_support_plan.png)
+
+---
 
 ### 4.7 Finalizing Account Setup
 - **Step:** Once all steps are completed, your AWS account is activated.
@@ -100,6 +139,9 @@ Before starting this project, ensure you have:
   - On the sign-in page, choose **"Root user"** and enter your registered email and password.
   - Complete any additional verification (e.g., CAPTCHA) if prompted.
 - **Outcome:** You will be successfully logged into your AWS Management Console, where you can explore AWS services.
+
+*Screenshot Placeholder:*
+![AWS Management Console Screenshot](./screenshots/step_4_7_management_console.png)
 
 ---
 
@@ -123,6 +165,9 @@ Before starting this project, ensure you have:
   - **Problem:** CAPTCHA fails to load or is difficult to read.
   - **Solution:** Refresh the page or use an alternate browser to bypass the issue.
 
+*Screenshot Placeholder:*
+![Troubleshooting Screenshot](./screenshots/troubleshooting.png)
+
 ---
 
 ## Additional Resources
@@ -131,6 +176,9 @@ Before starting this project, ensure you have:
 - [AWS Free Tier Information](https://aws.amazon.com/free/)
 - [AWS Support Center](https://aws.amazon.com/contact-us/)
 - [Cloud Computing Basics](https://aws.amazon.com/what-is-cloud-computing/)
+
+*Screenshot Placeholder:*
+![Additional Resources Screenshot](./screenshots/additional_resources.png)
 
 ---
 
@@ -141,4 +189,9 @@ This project not only guides you through creating an AWS account but also builds
 - **Practical Experience:** Hands-on exposure to the account creation and verification process.
 - **Future Applications:** The skills gained here are applicable to broader cloud projects, enabling you to explore a wide range of AWS services.
 
+*Screenshot Placeholder:*
+![Project Reflection Screenshot](./screenshots/project_reflection.png)
 
+---
+
+*This documentation is based on best practices for technical guides and aims to provide a clear and practical walkthrough for users new to AWS.*
