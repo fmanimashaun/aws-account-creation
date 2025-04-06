@@ -1,197 +1,142 @@
-# AWS Account Creation Project Documentation
+# AWS Account Creation Guide for Darey.io Project
 
 ## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Objectives and Learning Outcomes](#objectives-and-learning-outcomes)
-3. [Prerequisites and Requirements](#prerequisites-and-requirements)
-4. [Implementation Steps](#implementation-steps)
-   - 4.1 [Visit the AWS Website](#41-visit-the-aws-website)
-   - 4.2 [Enter Account Information](#42-enter-account-information)
-   - 4.3 [Email Verification Process](#43-email-verification-process)
-   - 4.4 [Providing Personal and Payment Information](#44-providing-personal-and-payment-information)
-   - 4.5 [Phone Verification and OTP Handling](#45-phone-verification-and-otp-handling)
-   - 4.6 [Selecting a Support Plan](#46-selecting-a-support-plan)
-   - 4.7 [Finalizing Account Setup](#47-finalizing-account-setup)
-5. [Troubleshooting and FAQs](#troubleshooting-and-faqs)
-6. [Additional Resources](#additional-resources)
-7. [Project Reflection](#project-reflection)
-
----
+- [Project Overview](#project-overview)
+- [Objectives and Learning Outcomes](#objectives-and-learning-outcomes)
+- [Prerequisites and Requirements](#prerequisites-and-requirements)
+- [Implementation Steps](#implementation-steps)
+  - [1. Visit the AWS Signup Page](#1-visit-the-aws-signup-page)
+  - [2. Enter Your Account Information](#2-enter-your-account-information)
+  - [3. Configure Root User](#3-configure-root-user)
+  - [4. Verify Your Email](#4-verify-your-email)
+  - [5. Create Your Password](#5-create-your-password)
+  - [6. Enter Contact Information](#6-enter-contact-information)
+  - [7. Provide Payment Information](#7-provide-payment-information)
+  - [8. Verify Your Identity](#8-verify-your-identity)
+  - [9. Confirm Your Identity](#9-confirm-your-identity)
+  - [10. Verify Phone Number](#10-verify-phone-number)
+  - [11. Enter the Verification Code](#11-enter-the-verification-code)
+  - [12. Choose a Support Plan](#12-choose-a-support-plan)
+  - [13. Complete the Signup Process](#13-complete-the-signup-process)
+  - [14. Sign In to Your AWS Account](#14-sign-in-to-your-aws-account)
+  - [15. Enable Multi-Factor Authentication (MFA)](#15-enable-multi-factor-authentication-mfa)
+  - [16. Create IAM Users](#16-create-iam-users)
+  - [17. Explore AWS Free Tier](#17-explore-aws-free-tier)
+  - [18. Set Up Billing Alerts](#18-set-up-billing-alerts)
+- [Troubleshooting and FAQs](#troubleshooting-and-faqs)
+  - [Common Issues](#common-issues)
+  - [FAQs](#faqs)
+- [Additional Resources](#additional-resources)
+- [Project Reflection](#project-reflection)
 
 ## Project Overview
-
-The AWS Account Creation project is a guided exercise designed to help users create their own Amazon Web Services (AWS) account. This project is tailored for newcomers to cloud computing, providing a detailed walkthrough of the registration process from start to finish. Through this project, users gain practical insights into how AWS manages account setup, verification, and initial configuration.
-
-*Screenshot Placeholder:*
-![Project Overview Screenshot](./screenshots/project_overview.png)
-
----
+The Darey.io project requires setting up an AWS account to manage cloud resources. This guide provides detailed instructions on how to create and configure an AWS account tailored for the Darey.io project.
 
 ## Objectives and Learning Outcomes
-
-**Project Objectives:**
-- **Understand AWS Cloud:** Familiarize yourself with cloud computing and the significance of AWS as a leading cloud provider.
-- **Account Setup Mastery:** Learn the step-by-step process to create an AWS account.
-- **Navigation Skills:** Gain the ability to access and navigate the AWS Management Console.
-- **Practical Exposure:** Develop confidence in handling account verification procedures, including email, payment, and phone verification.
-
-**Learning Outcomes:**
-- Successfully create an AWS account.
-- Understand the critical steps involved in account verification.
-- Learn best practices for inputting and securing personal and payment information.
-- Build foundational knowledge for future cloud-based projects.
-
-*Screenshot Placeholder:*
-![Objectives and Learning Outcomes Screenshot](./screenshots/objectives_learning_outcomes.png)
-
----
+- Understand the process of creating an AWS account.
+- Learn how to configure AWS services required for the Darey.io project.
+- Gain knowledge in managing AWS resources and permissions.
 
 ## Prerequisites and Requirements
-
-Before starting this project, ensure you have:
-- A valid email address.
-- A strong and secure password.
-- A credit or debit card (for identity verification and potential nominal authorization charges).
-- A phone number (for receiving OTP during the verification process).
-- Basic familiarity with web navigation and form submissions.
-
-*Screenshot Placeholder:*
-![Prerequisites Screenshot](./screenshots/prerequisites.png)
-
----
+- An email address that you have access to.
+- A valid credit card (required for verification purposes, even if you only use the free tier).
 
 ## Implementation Steps
 
-### 4.1 Visit the AWS Website
-- **Step:** Open your web browser and navigate to [aws.amazon.com](https://aws.amazon.com/).
-- **Action:** Click the **"Create an AWS account"** button, typically found at the top right corner of the homepage.
+### 1. Visit the AWS Signup Page
+Go to the [AWS Signup Page](https://portal.aws.amazon.com/billing/signup) to start the account creation process.
 
-*Screenshot Placeholder:*
-![AWS Homepage Screenshot](./screenshots/step_4_1_aws_homepage.png)
+![AWS Signup Page](signup_page.png)
 
----
+### 2. Enter Your Account Information
+- **Email Address:** Provide a valid email address that you can access.
+- **Password:** Create a strong password for your AWS account.
+- **AWS Account Name:** Choose a name for your AWS account. This can be your company name or a descriptive name for your personal account.
 
-### 4.2 Enter Account Information
-- **Step:** On the account registration page, provide the following:
-  - **Email Address:** Enter your valid email.
-  - **Password:** Create a secure password.
-  - **AWS Account Name:** Choose a unique identifier for your account.
-- **Action:** Click **"Verify email address"** to proceed.
+### 3. Configure Root User
+- **Root User Email:** AWS will use this email address to send account notifications and updates.
+- **Root User Password:** Create a secure password for the root user. Ensure it is different from your general AWS account password.
 
-*Screenshot Placeholder:*
-![Enter Account Information Screenshot](./screenshots/step_4_2_account_info.png)
+### 4. Verify Your Email
+AWS will send a verification email to the email address provided. Check your inbox for the verification email.
 
----
+![Email Verification](email_verification.png)
 
-### 4.3 Email Verification Process
-- **Step:** Check your email inbox for a verification code from AWS.
-- **Action:**
-  - Copy the received verification code.
-  - Return to the AWS sign-up page and paste the code into the designated field.
-  - Set your **Root user password** and click **"Continue"**.
+### 5. Create Your Password
+After verifying your email, you will be prompted to create a root user password.
 
-*Screenshot Placeholder:*
-![Email Verification Process Screenshot](./screenshots/step_4_3_email_verification.png)
+![Create Password](create_password.png)
 
----
+### 6. Enter Contact Information
+Enter your contact information such as your full name, phone number, address, city, state, and country.
 
-### 4.4 Providing Personal and Payment Information
-- **Personal Information:**
-  - **Step:** Enter your full name, address, and other required details.
-  - **Action:** Click **"Continue"** after verifying your details.
-- **Payment Information:**
-  - **Step:** Enter your credit or debit card details.
-  - **Note:** AWS may perform a nominal authorization charge (around USD $1.00) to verify your card, which will be reversed.
-  - **Action:** Click **"Verify and continue"** to complete the payment verification.
+![Contact Information](contact_information.png)
 
-*Screenshot Placeholder:*
-![Personal and Payment Information Screenshot](./screenshots/step_4_4_personal_payment.png)
+### 7. Provide Payment Information
+Enter your credit card information. AWS requires a credit card to verify your identity, even if you plan to use only the free tier services.
 
----
+![Billing Information](billing_information.png)
 
-### 4.5 Phone Verification and OTP Handling
-- **Step:** AWS will send an OTP (One Time Password) to the phone number you provided.
-- **Action:**
-  - Choose your preferred method to receive the OTP (SMS or voice call).
-  - Enter the OTP in the corresponding field on the AWS page.
-  - Complete any CAPTCHA challenges that may appear.
-  - Click **"Send"** and then **"Continue"** to proceed.
+### 8. Verify Your Identity
+To authorize the $1 USD charge on your card, enter the One-Time Password (OTP) sent to your registered mobile number.
 
-*Screenshot Placeholder:*
-![Phone Verification and OTP Screenshot](./screenshots/step_4_5_otp.png)
+![Bank OTP](bank_otp.png)
 
----
+### 9. Confirm Your Identity
+Verify your identity by providing the necessary details such as your name, primary purpose of account registration, ownership type, and document type.
 
-### 4.6 Selecting a Support Plan
-- **Step:** On the support plan selection page, review the options.
-- **Recommendation:** For beginners, select the **Basic (Free)** support plan.
-- **Action:** Click **"Complete sign up"** after choosing your support plan.
+![Identity Verification](identity_verification.png)
 
-*Screenshot Placeholder:*
-![Support Plan Selection Screenshot](./screenshots/step_4_6_support_plan.png)
+### 10. Verify Phone Number
+Before you can use your AWS account, you must verify the ownership of the phone number provided. Choose to receive the verification code via text message (SMS) or voice call.
 
----
+![Phone Verification](phone_verification.png)
 
-### 4.7 Finalizing Account Setup
-- **Step:** Once all steps are completed, your AWS account is activated.
-- **Action:**
-  - Click **"Go to the AWS Management Console"**.
-  - On the sign-in page, choose **"Root user"** and enter your registered email and password.
-  - Complete any additional verification (e.g., CAPTCHA) if prompted.
-- **Outcome:** You will be successfully logged into your AWS Management Console, where you can explore AWS services.
+### 11. Enter the Verification Code
+Enter the OTP sent to your mobile number to verify your phone number.
 
-*Screenshot Placeholder:*
-![AWS Management Console Screenshot](./screenshots/step_4_7_management_console.png)
+![Enter OTP](enter_otp.png)
 
----
+### 12. Choose a Support Plan
+Select a support plan based on your needs. The **Basic Support Plan** is free and suitable for most users. AWS also offers Developer, Business, and Enterprise support plans at additional costs.
+
+![Support Plan](support_plan.png)
+
+### 13. Complete the Signup Process
+- Review your information and click **Complete Sign Up** to finish creating your AWS account.
+
+![Complete Sign Up](complete_sign_up.png)
+
+### 14. Sign In to Your AWS Account
+- Once the signup process is complete, go to the [AWS Management Console](https://aws.amazon.com/console/) and sign in using your root user email and password.
+
+### 15. Enable Multi-Factor Authentication (MFA)
+- AWS strongly recommends enabling MFA for added security. Follow the instructions in the AWS Management Console to set up MFA.
+
+### 16. Create IAM Users
+- For security reasons, avoid using the root account for everyday tasks. Create IAM (Identity and Access Management) users with appropriate permissions for your team members or yourself.
+
+### 17. Explore AWS Free Tier
+- AWS offers a free tier with limited usage of certain services. Explore the [AWS Free Tier](https://aws.amazon.com/free/) to understand what services you can use for free.
+
+### 18. Set Up Billing Alerts
+- To avoid unexpected charges, set up billing alerts in the AWS Management Console.
 
 ## Troubleshooting and FAQs
+### Common Issues
+- **Email Verification Not Received:** Check your spam or junk folder. Ensure you provided the correct email address.
+- **Phone Verification Failed:** Ensure your phone number is correct and capable of receiving text messages or calls.
 
-### Common Issues and Solutions
-
-- **Email Not Received:**
-  - **Problem:** Verification email is missing.
-  - **Solution:** Check your spam/junk folder or request a new verification email.
-
-- **Payment Verification Failure:**
-  - **Problem:** Your card is declined or authorization fails.
-  - **Solution:** Ensure your card details are correct and that your card supports international transactions. Contact your bank if necessary.
-
-- **OTP Not Received:**
-  - **Problem:** The OTP is not delivered to your phone.
-  - **Solution:** Verify that your phone number is correct and that you have adequate network connectivity. Try requesting the OTP again.
-
-- **CAPTCHA Issues:**
-  - **Problem:** CAPTCHA fails to load or is difficult to read.
-  - **Solution:** Refresh the page or use an alternate browser to bypass the issue.
-
-*Screenshot Placeholder:*
-![Troubleshooting Screenshot](./screenshots/troubleshooting.png)
-
----
+### FAQs
+- **Q: Can I use a prepaid card for verification?**
+  - A: AWS typically requires a valid credit or debit card for verification purposes.
 
 ## Additional Resources
-
-- [AWS Official Documentation](https://docs.aws.amazon.com/)
-- [AWS Free Tier Information](https://aws.amazon.com/free/)
-- [AWS Support Center](https://aws.amazon.com/contact-us/)
-- [Cloud Computing Basics](https://aws.amazon.com/what-is-cloud-computing/)
-
-*Screenshot Placeholder:*
-![Additional Resources Screenshot](./screenshots/additional_resources.png)
-
----
+- [AWS Documentation](https://docs.aws.amazon.com/)
+- [AWS Free Tier](https://aws.amazon.com/free/)
+- [AWS Support](https://aws.amazon.com/contact-us/)
 
 ## Project Reflection
+Reflect on the process of creating and configuring an AWS account for the Darey.io project. Document any challenges faced and how they were overcome. This practice helps in improving future implementations and understanding AWS services better.
 
-This project not only guides you through creating an AWS account but also builds your foundational knowledge of cloud computing. Key reflections include:
-- **Understanding AWS Cloud:** How AWS offers scalable, flexible, and cost-effective computing resources.
-- **Practical Experience:** Hands-on exposure to the account creation and verification process.
-- **Future Applications:** The skills gained here are applicable to broader cloud projects, enabling you to explore a wide range of AWS services.
-
-*Screenshot Placeholder:*
-![Project Reflection Screenshot](./screenshots/project_reflection.png)
-
----
-
-*This documentation is based on best practices for technical guides and aims to provide a clear and practical walkthrough for users new to AWS.*
+By following this guide, you will have successfully created an AWS account and set up the necessary infrastructure for the Darey.io project. If you have any additional questions or need further assistance, feel free to ask!
